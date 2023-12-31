@@ -1,0 +1,45 @@
+p {
+    color: chocolate;
+}
+
+.text {
+    color: red;
+}
+
+#text {
+    color: green;
+}
+
+li {
+    list-style: url("../images/arrow.svg");
+    display: inline;
+    margin-left: 30px;
+}
+
+
+p {
+    background: red;
+}
+
+div {
+    /* width: 20rem; */
+    /* width: 400px; */
+    /* width: 100%; o'rab turgan elementga nisbatan*/
+    /* view-width, ekranga nisbatan */
+    /* height: 40vh; */
+    /* view-height ekranga nisbatan */
+    /* 1em, 1rem = 16px */
+    /* height: 20px; */
+    /* background: red; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    width: 100vw;
+    height: 50%;
+    color: blue;
+    background: green;
+}
